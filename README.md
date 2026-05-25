@@ -1,11 +1,11 @@
 # Parkinson's Disease Detection
 
-Parkinson's Disease Detection is a data mining project built in Altair AI Studio 2026 (RapidMiner v12.0.005) for the IT8416 Data Mining course at Bahrain Polytechnic. The goal is to classify whether a patient has Parkinson's Disease based on biomedical voice measurements using the UCI Oxford Parkinsons dataset.
+Parkinson's Disease Detection is a data mining project built in AI Studio 2026 for the IT8416 Data Mining. The goal is to classify whether a patient has Parkinson's Disease based on biomedical voice measurements using the UCI Oxford Parkinsons dataset.
 
 Three classification models were built and evaluated:
 
 - Decision Tree
-- k-Nearest Neighbour (k-NN)
+- K-Nearest Neighbour (K-NN)
 - Ensemble (Vote: Decision Tree + k-NN)
 
 ---
@@ -14,7 +14,7 @@ Three classification models were built and evaluated:
 
 Install these on your machine:
 
-- **Altair AI Studio 2026** (RapidMiner v12.0.005)
+- **Altair AI Studio 2026** 
 - A web browser such as **Chrome**, **Edge**, or **Brave**
 
 ---
@@ -139,9 +139,3 @@ All models were evaluated on a 30% stratified holdout set (56 instances).
 **Best model: k-NN** — highest accuracy, perfect recall (zero missed PD cases), and perfect AUC.
 
 ---
-
-## Course Information
-
-- **Course**: IT8416 Data Mining
-- **Institution**: Bahrain Polytechnic
-- **Submission deadline**: 2026-06-01
